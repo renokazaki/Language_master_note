@@ -132,8 +132,8 @@ function generateIntegrations(count: number): Integration[] {
         i + 1
       }. It provides ${category.toLowerCase()} services to streamline your workflow and improve efficiency. With powerful features and easy integration, it's an essential tool for modern businesses looking to optimize their operations and stay ahead in the competitive market.`,
       category,
-      icon: iconMap[iconKey as keyof typeof iconMap],
       color,
+      icon: iconMap[iconKey as keyof typeof iconMap] as React.ComponentType,
     });
   }
 
