@@ -13,7 +13,9 @@ export default async function WordPage({
       WordPage {word}
       <SubmitButton word={word} />
       <div>
-        <Link href="/">Home</Link>
+        <Link href="/" className="bg-blue-500 text-white p-2 rounded-md">
+          Home
+        </Link>
       </div>
     </div>
   );
