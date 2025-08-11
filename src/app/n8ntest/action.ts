@@ -17,7 +17,7 @@ export async function submitForm(
 
   try {
     const res = await fetch(
-      process.env.NEXT_PUBLIC_N8N_URL ||
+      process.env.NEXT_PUBLIC_N8N_URL_TEST ||
         "https://ren21.app.n8n.cloud/webhook-test/f3f298fe-185e-44b3-9a0e-09bb7a5347c0",
       {
         method: "POST",
